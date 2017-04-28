@@ -1,0 +1,19 @@
+Package: ipumsenumview
+Type: Package
+Title: Display and Search IPUMS Enumeration Text (Example)
+Version: 0.1.0
+Author: University of Minnesota
+Maintainer: Greg Freedman Ellis <gfellis@umn.edu>
+Description: Demonstration of the enumeration text viewere designed to replace
+   searching through .pdf files.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: dplyr,
+   purrr,
+   readr,
+   shiny,
+   shinyjs,
+   shinythemes,
+   stringr,
+   xml2
